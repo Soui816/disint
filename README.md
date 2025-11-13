@@ -20,13 +20,13 @@ A reproducible and fully automated pipeline for large-scale disease transcriptom
 
 # Overview
 
-**disint** is a standardized, high-reproducibility Python pipeline designed for **multi-cohort disease transcriptomics**.  
+**disint** is a standardized, high-reproducibility Python pipeline designed for **multi-study disease transcriptomics**.  
 It provides an end-to-end workflow — from raw or normalized expression matrices to publication-grade clustering and visualization —  
 with a strong emphasis on **cross-dataset comparability**, **batch-aware normalization**, and **robust dimensionality reduction**.
 
 Key capabilities include:
 
-- **Housekeeping-gene–based normalization** using stability ranking across cohorts  
+- **Housekeeping-gene–based normalization** using stability ranking across datasets  
   (default panel of 20 ENST transcripts or user-specified candidates)
 - **Automatic log₂ fold-change estimation** vs. matched healthy controls within each dataset (e.g., each GSE)
 - **PCA → UMAP embedding** with **metric-wise Optuna hyperparameter optimization**
@@ -38,7 +38,7 @@ Key capabilities include:
 This package is designed for users working on:
 
 - disease heterogeneity analysis  
-- multi-cohort transcriptomic integration  
+- multi-dataset transcriptomic integration  
 - drug repurposing candidate identification  
 - high-dimensional biological data visualization  
 
