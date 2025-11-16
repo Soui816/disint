@@ -523,9 +523,9 @@ If you use **disint** in your research, please cite:
    *A New Approach to Drug Repurposing with Two-Stage Prediction and Machine Learning.*  
    **OMICS**, 2022.
 
-2. Cong Y, *, Endo T.  
-   *[Title].*  
-   *, 2025.
+2. Cong Y, Osada N, Endo T.  
+   *disint: A Reproducible Pipeline for Multi-Study Transcriptomic Integration and Its Application to Drug-Repositioning Analysis.*  
+   **OMICS**, 2025.
 
 # License
 
